@@ -1,0 +1,15 @@
+class Productos():
+    def __init__(self, nombre, cantidad):
+        self.nombre = nombre
+        self.cantidad = cantidad
+
+    def Calcular (self):
+        
+
+class Perecedero(Productos):
+    def __init__(self, dias):
+        self.dias = dias
+           
+class NoPerecedero(Productos):
+    def __init__(self, tipo):
+        self.tipo = tipo    
